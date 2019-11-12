@@ -1,4 +1,4 @@
-# Organization Traversing [![Build Status](https://travis-ci.com/rkrux/org.svg?branch=master)](https://travis-ci.com/rkrux/org)
+# Organization Traversal [![Build Status](https://travis-ci.com/rkrux/org.svg?branch=master)](https://travis-ci.com/rkrux/org)
 
 ## Info
 - No external dependencies required
