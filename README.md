@@ -1,4 +1,4 @@
-##Notes
+## Notes
 - No external dependencies required
 - 40 Test Cases covered among 6 Test Scenarios
 - An Employee is represented by a struct containing ID and a slice of Employee pointers
@@ -7,18 +7,18 @@
 - To add test cases, update scenarios_test.go file
 - Organization's heirarchy is defined by a map that is passed onto Organization.Create() function
 
-##Assumptions
+## Assumptions
 - ID of Organization's founder is always 1
 - An employee is a manager if he has more than 1 Direct under him - (len(Employee.Directs) > 0)
 - All relations among the employees roll up to the Founder - the heirarchy is connected for all the employees
 - CCM of a manager and his employee is the manager himself
 
-##CCM Negative Scenarios
+## CCM Negative Scenarios
 - Same employee passed in both the arguments
 - Either of the employee absent from the organization
 
-##Build and Run
-Build: go install github.com/rkrux/org
-Run from bin directory: ./org
-Run from /org/ directory: go run main.go
-Test from /org/testscenarios/ directory: go test
+## Build and Run
+- Build: go install github.com/rkrux/org
+- Run from bin directory: ./org
+- Run from /org/ directory: go run main.go
+- Test from /org/testscenarios/ directory: go test
