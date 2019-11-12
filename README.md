@@ -1,3 +1,5 @@
+# Organization Traversing [![Build Status](https://travis-ci.com/rkrux/org.svg?branch=master)](https://travis-ci.com/rkrux/org)
+
 ## Info
 - No external dependencies required
 - 40 Test Cases covered among 6 Test Scenarios
