@@ -1,6 +1,6 @@
 # Organization Traversal [![Build Status](https://travis-ci.com/rkrux/org.svg?branch=master)](https://travis-ci.com/rkrux/org)
 
-## Info
+### Info
 - No external dependencies required
 - 40 Test Cases covered among 6 Test Scenarios
 - An Employee is represented by a struct containing ID and a slice of Employee pointers
